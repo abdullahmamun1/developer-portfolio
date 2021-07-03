@@ -12,6 +12,7 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 180px;
 }
 .half-width {
   width: 50%;
@@ -22,7 +23,7 @@ section {
 }
 .hire-button {
   text-decoration: none;
-  background-image: linear-gradient(red, white);
+  background-image: linear-gradient(red, rgb(194, 99, 99));
   color: white;
   font-weight: 700;
   padding: 10px 40px;
@@ -31,4 +32,10 @@ section {
 .header {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+
+.dream-big {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
